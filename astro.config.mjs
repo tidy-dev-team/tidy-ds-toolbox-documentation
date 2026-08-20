@@ -1,16 +1,17 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightThemeNord from 'starlight-theme-nord';
 
 // https://astro.build/config
 export default defineConfig({
-	// Update this when the Vercel project exists, so canonical URLs and the
-	// sitemap point at the real domain.
+	// The production domain, so canonical URLs and the sitemap are correct.
 	site: 'https://tidy-ds-toolbox-documentation.vercel.app',
 	integrations: [
 		starlight({
 			title: 'Tidy DS Toolbox',
 			description: 'Documentation for the Tidy DS Toolbox Figma plugin.',
+			plugins: [starlightThemeNord()],
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/tidy-dev-team/tidy-ds-toolbox' }],
 			// The panel groups modules by maturity, and the Stable and Beta groups
 			// follow it. A module you run with a slash command goes in Run from

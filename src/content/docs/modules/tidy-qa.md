@@ -24,8 +24,7 @@ They get a row with no status, because a person must still tick them.
 Tidy QA has no entry in the plugin panel.
 The panel must be open, because Tidy QA works through the Bridge, but you start every run from Claude.
 
-The plugin must be connected to Claude first.
-The setup pages give the steps.
+Read [Connect the plugin to Claude](/setup/connect-claude/) first.
 
 ## When to use it
 

@@ -16,6 +16,10 @@ export default defineConfig({
 			// maturity. Add the Stable and Beta groups when those pages exist.
 			sidebar: [
 				{
+					label: 'Set up',
+					items: [{ autogenerate: { directory: 'setup' } }],
+				},
+				{
 					label: 'Alpha',
 					items: [{ label: 'Tidy Doc', slug: 'modules/tidy-doc' }],
 				},

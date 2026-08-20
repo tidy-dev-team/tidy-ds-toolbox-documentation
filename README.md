@@ -6,13 +6,14 @@ The reader is a designer, not an engineer and not an agent operator.
 
 ## Status
 
-The site is not built yet.
-`notes/` holds the decisions made so far.
+The site is built and it holds one module page, Tidy Doc.
+Run `npm run dev` to read it.
+A push to `main` deploys it to <https://tidy-ds-toolbox-documentation.vercel.app>.
 
+- [`src/content/docs/`](src/content/docs) - the pages.
+- [`src/assets/`](src/assets) - the screenshots.
 - [`notes/generator-decision.md`](notes/generator-decision.md) - the site uses Astro Starlight, and why.
 - [`notes/generator-research.md`](notes/generator-research.md) - the facts the choice was made from.
-- [`notes/tidy-doc-page-draft.md`](notes/tidy-doc-page-draft.md) - the first module page, written. It becomes `src/content/docs/modules/tidy-doc.md` when the site is scaffolded.
-- [`notes/images/`](notes/images) - two sample panel captures.
 
 ## Writing rules
 

@@ -1,40 +1,46 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: Tidy DS Toolbox
+description: Documentation for the Tidy DS Toolbox Figma plugin.
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  tagline: One Figma plugin for the repeated work on a design system.
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Tidy Doc
+      link: /modules/tidy-doc/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: Plugin repository
+      link: https://github.com/tidy-dev-team/tidy-ds-toolbox
       icon: external
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## What this site is
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+The Tidy DS Toolbox is a Figma plugin.
+It holds a set of modules, and each module does one job on a design system file.
+
+This site has one page for each module.
+A module page tells you what the module does, when to use it, and how to run it, step by step.
+
+<CardGrid>
+	<Card title="Start with a module" icon="open-book">
+		Select a module in the sidebar.
+		The sidebar follows the plugin panel, so a module is in the same group here
+		as it is in the panel.
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="Maturity groups" icon="approve-check">
+		The panel groups modules under **Stable**, **Beta** and **Alpha**.
+		An alpha module works, but its result can change between releases.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Two ways to run a module" icon="setting">
+		You run most modules from the panel.
+		Some modules can also be driven from Claude, and the result is not always
+		the same. The module page says which way gives which result.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="More pages to come" icon="document">
+		Only the Tidy Doc page is written.
+		The pages for the other modules follow.
 	</Card>
 </CardGrid>

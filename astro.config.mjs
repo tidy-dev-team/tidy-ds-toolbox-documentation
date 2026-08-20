@@ -20,6 +20,13 @@ export default defineConfig({
 					items: [{ autogenerate: { directory: 'setup' } }],
 				},
 				{
+					label: 'Stable',
+					items: [
+						{ label: 'DS Explorer', slug: 'modules/ds-explorer' },
+						{ label: 'Component Labels', slug: 'modules/component-labels' },
+					],
+				},
+				{
 					label: 'Alpha',
 					items: [{ label: 'Tidy Doc', slug: 'modules/tidy-doc' }],
 				},

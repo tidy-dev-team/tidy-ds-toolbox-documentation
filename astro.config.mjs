@@ -22,6 +22,10 @@ export default defineConfig({
 					items: [{ autogenerate: { directory: 'setup' } }],
 				},
 				{
+					label: 'Claude commands',
+					items: [{ autogenerate: { directory: 'commands' } }],
+				},
+				{
 					label: 'Stable',
 					items: [
 						{ label: 'DS Explorer', slug: 'modules/ds-explorer' },

@@ -87,5 +87,7 @@ Update both at the same time.
 
 ## Next
 
-Select a module in the sidebar.
+Read [Slash commands](/commands/) for every command you now have.
+
+Or select a module in the sidebar.
 Each module page says whether you run it from the panel, from Claude, or both ways.

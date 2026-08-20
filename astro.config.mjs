@@ -27,12 +27,20 @@ export default defineConfig({
 						{ label: 'Tidy Icon Care', slug: 'modules/tidy-icon-care' },
 						{ label: 'Tidy Mapper', slug: 'modules/tidy-mapper' },
 						{ label: 'Audit', slug: 'modules/audit' },
+						{ label: 'Utilities', slug: 'modules/utilities' },
 						{ label: 'Misprint', slug: 'modules/misprint' },
+						{ label: 'DS Template', slug: 'modules/ds-template' },
 					],
 				},
 				{
 					label: 'Beta',
-					items: [{ label: 'Sticker Sheet Builder', slug: 'modules/sticker-sheet-builder' }],
+					items: [
+						{ label: 'Sticker Sheet Builder', slug: 'modules/sticker-sheet-builder' },
+						{ label: 'Release Notes', slug: 'modules/release-notes' },
+						{ label: 'Off-Boarding', slug: 'modules/off-boarding' },
+						{ label: 'Icon Finder', slug: 'modules/icon-finder' },
+						{ label: 'Color Finder', slug: 'modules/color-finder' },
+					],
 				},
 				{
 					label: 'Alpha',

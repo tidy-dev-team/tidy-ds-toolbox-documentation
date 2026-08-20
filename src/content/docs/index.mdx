@@ -10,9 +10,13 @@ head:
 hero:
   tagline: One Figma plugin for the repeated work on a design system.
   actions:
-    - text: Tidy Doc
-      link: /modules/tidy-doc/
+    - text: Install the plugin
+      link: /setup/install-plugin/
       icon: right-arrow
+    - text: Connect it to Claude
+      link: /setup/connect-claude/
+      icon: right-arrow
+      variant: secondary
     - text: Plugin repository
       link: https://github.com/tidy-dev-team/tidy-ds-toolbox
       icon: external
@@ -29,24 +33,35 @@ It holds a set of modules, and each module does one job on a design system file.
 This site has one page for each module.
 A module page tells you what the module does, when to use it, and how to run it, step by step.
 
+## Start here
+
 <CardGrid>
-	<Card title="Start with a module" icon="open-book">
-		Select a module in the sidebar.
-		The sidebar follows the plugin panel, so a module is in the same group here
-		as it is in the panel.
+	<Card title="Install it, in two steps" icon="rocket">
+		[Install the Figma plugin](/setup/install-plugin/) to get the panel.
+		Then [connect it to Claude](/setup/connect-claude/) for the modules you
+		run with a command.
 	</Card>
-	<Card title="Maturity groups" icon="approve-check">
-		The panel groups modules under **Stable**, **Beta** and **Alpha**.
-		An alpha module works, but its result can change between releases.
+	<Card title="Then select a module" icon="open-book">
+		The sidebar holds one page for each module.
+		Read the page before you run the module: several of them change your
+		file in a way you cannot undo in one step.
 	</Card>
-	<Card title="Two ways to run a module" icon="setting">
-		You run most modules from the panel.
-		Some modules can also be driven from Claude, and the result is not always
-		the same. The module page says which way gives which result.
+</CardGrid>
+
+## Two ways to run a module
+
+<CardGrid>
+	<Card title="From the panel" icon="figma">
+		Most modules are buttons in the Figma panel.
+		The panel groups them under **Stable**, **Beta** and **Alpha**, and the
+		sidebar here uses the same groups.
+		An alpha module works, and its result can change between releases.
 	</Card>
-	<Card title="New here?" icon="rocket">
-		Read [Install the Figma plugin](/setup/install-plugin/) first.
-		A module that runs from Claude needs
-		[one more step](/setup/connect-claude/).
+	<Card title="From Claude" icon="seti:todo">
+		Seven modules take a slash command, such as `/tidy-ds:tidy-qa`.
+		The ones with no panel button, and the one that needs Claude to be
+		useful, are under **Run from Claude**.
+		Where a module works both ways, its page says which way gives which
+		result, because they are not always the same.
 	</Card>
 </CardGrid>

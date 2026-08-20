@@ -25,6 +25,8 @@ export default defineConfig({
 						{ label: 'DS Explorer', slug: 'modules/ds-explorer' },
 						{ label: 'Component Labels', slug: 'modules/component-labels' },
 						{ label: 'Tidy Icon Care', slug: 'modules/tidy-icon-care' },
+						{ label: 'Tidy Mapper', slug: 'modules/tidy-mapper' },
+						{ label: 'Audit', slug: 'modules/audit' },
 						{ label: 'Misprint', slug: 'modules/misprint' },
 					],
 				},

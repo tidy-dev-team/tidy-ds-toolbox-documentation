@@ -24,7 +24,13 @@ export default defineConfig({
 					items: [
 						{ label: 'DS Explorer', slug: 'modules/ds-explorer' },
 						{ label: 'Component Labels', slug: 'modules/component-labels' },
+						{ label: 'Tidy Icon Care', slug: 'modules/tidy-icon-care' },
+						{ label: 'Misprint', slug: 'modules/misprint' },
 					],
+				},
+				{
+					label: 'Beta',
+					items: [{ label: 'Sticker Sheet Builder', slug: 'modules/sticker-sheet-builder' }],
 				},
 				{
 					label: 'Alpha',
@@ -34,7 +40,10 @@ export default defineConfig({
 					// Tidy QA has no entry in moduleRegistry.ts, so the panel gives it
 					// no maturity group. It runs from Claude only.
 					label: 'Run from Claude',
-					items: [{ label: 'Tidy QA', slug: 'modules/tidy-qa' }],
+					items: [
+						{ label: 'Tidy QA', slug: 'modules/tidy-qa' },
+						{ label: 'Find components', slug: 'modules/tidy-find' },
+					],
 				},
 			],
 		}),

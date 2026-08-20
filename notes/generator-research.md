@@ -1,8 +1,13 @@
 # Which static site generator fits the documentation site
 
-Research for issue #194.
-Part of map #193.
+Research for issue [#2](https://github.com/tidy-dev-team/tidy-ds-toolbox-documentation/issues/2).
+Part of map [#1](https://github.com/tidy-dev-team/tidy-ds-toolbox-documentation/issues/1).
 Date of the research: 18 August 2026.
+
+> **Read this first.** The host is now Vercel, not GitHub Pages.
+> Every GitHub Pages finding below is history, kept because it records what was checked and when.
+> The base-path hazard it names does not apply on Vercel, which serves at a domain root.
+> The generator comparison is unaffected and still current.
 
 This document reports facts with sources.
 It does not make a recommendation.
@@ -68,7 +73,7 @@ An organisation owner can also block Pages centrally.
 The owner can allow or disallow members from publishing Pages sites, and on Enterprise Cloud can allow public sites, private sites, both, or neither.
 Source: [Managing the publication of GitHub Pages sites for your organization](https://docs.github.com/en/organizations/managing-organization-settings/managing-the-publication-of-github-pages-sites-for-your-organization).
 
-Consequence for map #193.
+Consequence for map [#1](https://github.com/tidy-dev-team/tidy-ds-toolbox-documentation/issues/1).
 The map plans a public repository, so the free plan is sufficient.
 This fact does not block the plan.
 The permission risk that the map records is a different risk.
@@ -611,7 +616,7 @@ But the default MDX parse of `.md` does fight ordinary Markdown prose that conta
 The fix costs `<head>` metadata, `<details>`, `Tabs`, live code blocks, and `ThemedImage`.
 Note that the `ThemedImage` loss interacts with the theme requirement in section 6, because the pure-Markdown CSS route stays available.
 
-## Facts that bear on the assumptions in map #193
+## Facts that bear on the assumptions in map [#1](https://github.com/tidy-dev-team/tidy-ds-toolbox-documentation/issues/1)
 
 1. The free plan is not a problem for a public repository owned by an organisation.
    The Pages plan gate is on private repositories only.

@@ -19,6 +19,12 @@ export default defineConfig({
 					label: 'Alpha',
 					items: [{ label: 'Tidy Doc', slug: 'modules/tidy-doc' }],
 				},
+				{
+					// Tidy QA has no entry in moduleRegistry.ts, so the panel gives it
+					// no maturity group. It runs from Claude only.
+					label: 'Run from Claude',
+					items: [{ label: 'Tidy QA', slug: 'modules/tidy-qa' }],
+				},
 			],
 		}),
 	],

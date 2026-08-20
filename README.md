@@ -27,3 +27,4 @@ Every page on this site follows these rules.
 
 Vercel, on the team's paid plan.
 The project must live in the company Vercel team, not in a personal account.
+

@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import starlightThemeNord from 'starlight-theme-nord';
+import starlightCatppuccin from '@catppuccin/starlight';
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,7 +11,15 @@ export default defineConfig({
 		starlight({
 			title: 'Tidy DS Toolbox',
 			description: 'Documentation for the Tidy DS Toolbox Figma plugin.',
-			plugins: [starlightThemeNord()],
+			// Latte in light, Mocha in dark, with the Mauve accent. The flavours
+			// and the accent are the plugin's defaults, written out so a change is
+			// one edit here.
+			plugins: [
+				starlightCatppuccin({
+					light: { flavor: 'latte', accent: 'mauve' },
+					dark: { flavor: 'mocha', accent: 'mauve' },
+				}),
+			],
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/tidy-dev-team/tidy-ds-toolbox' }],
 			// The panel groups modules by maturity, and the Stable and Beta groups
 			// follow it. A module you run with a slash command goes in Run from

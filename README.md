@@ -17,12 +17,9 @@ A push to `main` deploys it to <https://tidy-ds-toolbox-documentation.vercel.app
 
 ## Writing rules
 
-Every page on this site follows these rules.
-
-- ASD-STE100 Simplified Technical English. Short sentences, active voice, one instruction per step.
-- No em dashes. Use a plain dash.
-- One full sentence per physical line in the Markdown source.
-- Vocabulary must not contradict [`CONTEXT.md`](https://github.com/tidy-dev-team/tidy-ds-toolbox/blob/main/CONTEXT.md) in the plugin repo. Operation, Bridge, Module, Feature and Session have fixed meanings there.
+[`CLAUDE.md`](CLAUDE.md) holds them.
+It covers the reader, the language, the shape of a module page, the sidebar, and the screenshot standard.
+Read it before you write a page.
 
 ## Host
 
